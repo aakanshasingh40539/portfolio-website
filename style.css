@@ -171,6 +171,10 @@ section {
     background: #c9a227;
     color: black;
 }
+.github-section{
+    text-align:center;
+    margin-top:40px;
+}
 
 
 .skills {
@@ -516,4 +520,5 @@ body.dark .contact-form textarea {
 .btn-submit:disabled {
     opacity: 0.7;
     cursor: not-allowed;
+
 }
