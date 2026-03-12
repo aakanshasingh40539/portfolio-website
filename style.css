@@ -172,8 +172,8 @@ section {
     color: black;
 }
 .github-section{
-    text-align:center;
-    margin-top:40px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -522,3 +522,4 @@ body.dark .contact-form textarea {
     cursor: not-allowed;
 
 }
+
