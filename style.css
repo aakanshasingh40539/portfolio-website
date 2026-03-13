@@ -91,16 +91,6 @@ body.dark .logo {
     cursor: pointer;
     border-radius: 20px;
 }
-.social-links{
-    margin-top:20px;
-}
-
-.social-links a{
-    margin:0 10px;
-    text-decoration:none;
-    font-weight:600;
-    color:#ffd166;
-}
 
 section {
     padding: 120px 20px;
@@ -534,6 +524,7 @@ body.dark .contact-form textarea {
     cursor: not-allowed;
 
 }
+
 
 
 
