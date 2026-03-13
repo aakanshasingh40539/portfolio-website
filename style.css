@@ -96,6 +96,16 @@ section {
     padding: 120px 20px;
     text-align: center;
 }
+.social-links{
+    margin-top:20px;
+}
+
+.social-links a{
+    margin:0 10px;
+    text-decoration:none;
+    font-weight:600;
+    color:#ffd166;
+}
 
 .hero {
     height: 100vh;
@@ -524,6 +534,7 @@ body.dark .contact-form textarea {
     cursor: not-allowed;
 
 }
+
 
 
 
