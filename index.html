@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aakansha | Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <h2 class="logo">Aakansha</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+
+    <section id="home" class="hero reveal">
+        <h1>Hello, I'm <span>Aakansha</span></h1>
+        <h2><span id="typing"></span></h2>
+        <p>Frontend Developer skilled in building responsive, modern and user-friendly web applications using HTML, CSS
+            and JavaScript.</p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="Aakansha resume.pdf" target="_blank" class="btn">Download Resume</a>
+    </section>
+
+    <section id="skills" class="skills reveal">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" data-width="90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" data-width="85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>JavaScript</span>
+                <span>75%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" data-width="75%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>WordPress</span>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" data-width="80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>SQL</span>
+                <span>70%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" data-width="70%"></div>
+            </div>
+        </div>
+
+    </section>
+    <section id="projects" class="projects reveal">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>E-Commerce Website</h3>
+                <p>Responsive shopping website with cart functionality using HTML, CSS & JS.</p>
+                <a href="https://aakanshasingh40539.github.io/portfolio-website/ecommerce/" target="_blank"
+                    class="btn-small">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>WordPress Blog</h3>
+                <p>Custom blog website with theme customization and plugin integration.</p>
+                <a href="https://aakanshadev.wordpress.com/" target="_blank" class="btn-small">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio with dark mode, typing animation & scroll effects.</p>
+                <a href="#" class="btn-small">Live Demo</a>
+            </div>
+            <div class="project-card">
+                <h3>To-Do List Web App</h3>
+                <p>A task management web app where users can add and delete tasks.</p>
+                <a href="https://aakanshasingh40539.github.io/todo-app" target="_blank" class="btn-small">Live Demo</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Admin Dashboard UI</h3>
+                <p>Interactive dashboard with sidebar toggle, dark mode and search functionality.</p>
+                <a href="https://aakanshasingh40539.github.io/dashboard-ui" target="_blank" class="btn-small">Live
+                    Demo</a>
+            </div>
+
+        </div>
+        <div class="github-section">
+            <a href="https://github.com/aakanshasingh40539" target="_blank" class="btn-small">View My GitHub</a>
+        </div>
+    </section>
+    <section id="contact" class="contact reveal">
+        <h2>Get In Touch</h2>
+
+        <div class="contact-container">
+            <form action="https://formsubmit.co/aakanshasingh40539@gmail.com" method="POST" class="contact-form">
+
+                <div class="input-group">
+                    <input type="text" name="name" required>
+                    <label>Your Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" required>
+                    <label>Your Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea name="message" rows="5" required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New Portfolio Message!">
+
+                <button type="submit" class="btn-submit" id="sendBtn">
+                    <span class="btn-text">Send Message</span>
+                </button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p>Email: aakanshasingh40539@gmail.com</p>
+                <p>Location: India</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        © 2026 Aakansha | All Rights Reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>s
